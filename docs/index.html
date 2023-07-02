@@ -7,13 +7,13 @@
 <style>
   html, body {
     background-image: url('./img/woodback.jpg');
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: Tahoma;
     padding: 0;
     margin: 0;
   }
   #title {
-    font-size: 1.7em;
+    font-size: 1.5em;
     width: 100%;
     text-align: center;
     font-weight: 900;
@@ -29,7 +29,27 @@
   }
   #spacer{
     width: 100%;
-    height: 5%;
+    height: 3%;
+  }
+  #browser{
+    font-size: 1.7em;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.1);
+    overflow: auto;
+    cursor: pointer;
+  }
+  .sel{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 1%;
+  }
+  .sel:hover {
+    width: 20%;
+    float: left;
+    text-align: center;
+    background-color: rgba(10,190,190,0.5);
   }
   #main {
     font-size: 1.7em;
@@ -64,6 +84,12 @@
       <div id="titlealign">
         Welcome to Vince Sarran Environmental Maintenance and Construction Company Limited <br/>
       </div>
+    </div>
+    <div id="browser">
+      <div id="sel_about" class="sel">About</div>
+      <div id="sel_services" class="sel">Services</div>
+      <div id="sel_contact" class="sel">Contact</div>
+      <div id="sel_location" class="sel">Location</div>
     </div>
     <div id="spacer">
     </div>
